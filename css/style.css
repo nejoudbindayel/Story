@@ -9,10 +9,17 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Tenor Sans';
-    font-size: 1rem;
+    font-size:1rem;
     color: #979797;
     overflow-x: hidden;
 }
+.textBlack {
+
+font-size:1.3rem;
+color:#414141;
+
+}
+
 
 html {
     font-size: 16px;
@@ -77,7 +84,7 @@ p{
 
 button {
 	line-height: 1;
-	background: transparent;
+	background: transparent; */
 }
 
 /* Helper Classes & Shorcodes */
@@ -264,6 +271,8 @@ a.image{
 .image img {
     width: 100%;
     display: block;
+    margin: 20px 6px 6px 6px;
+
 }
 .image, .image img {
     position: relative;
@@ -475,19 +484,22 @@ input, button, .hidden-items,#navigation, .fixed,
     left: auto;
 }
 .story-slide .story-text h3{
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     color: #414141;
     font-weight: bold;
 }
 .story-slide .story-text p{
-    font-size: 14px;
+    font-size: 18px;
+    color: #414141;
+
 }
 .story-slide .story-text span{
     display: block; font-family: Roboto;
-    font-size: 11px;
+    font-size: 15px;
     color: #006d29;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 
@@ -747,7 +759,7 @@ color:#fff; font: 900 12px/15px "Roboto"; letter-spacing: 1px; text-transform: u
         font-size: 2.75rem
     }
     h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     h3 {
         font-size: 1.375rem;
@@ -838,5 +850,16 @@ color:#fff; font: 900 12px/15px "Roboto"; letter-spacing: 1px; text-transform: u
     .full-screen h2 {
         font-size: 2rem;
     }
+
+}
+.textred{
+
+  font-size:1.3rem;
+
+}
+
+.frame{
+margin-bottom: 10px;
+border:2px solid #021a40;
 
 }
