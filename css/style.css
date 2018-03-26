@@ -17,6 +17,7 @@ body {
 
 font-size:1.3rem;
 color:#414141;
+text-align: center;
 
 }
 
@@ -349,9 +350,9 @@ input, button, .hidden-items,#navigation, .fixed,
 .swiper-button-next, .swiper-button-prev,
 .owl-prev, .owl-next, .owl-dots .owl-dot,
 .icon_box, .icon_box hr{
-  -o-transition:all .3s ease;
+  /* -o-transition:all .3s ease;
   -webkit-transition:all .3s ease;
-  transition:all .3s ease;
+  transition:all .3s ease; */
 }
 
 
@@ -495,7 +496,7 @@ input, button, .hidden-items,#navigation, .fixed,
 }
 .story-slide .story-text span{
     display: block; font-family: Roboto;
-    font-size: 15px;
+    font-size: 18px;
     color: #006d29;
     text-transform: uppercase;
     font-weight: bold;
@@ -593,16 +594,15 @@ margin: auto
     box-shadow: 0px 0px 9px 4px rgba(204, 194, 194, 0.34);
     background-color:rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 248, 220, 0.4);
+    height: 495px;
+    width:: 700px;
+    position: relative;
 
 }
 .icon_box .bghover{opacity: 0;
 	position: absolute; border-radius: 4px;
 	width: 100%;height: 100%;left: 0;
-	  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity .7s ease-in-out;
-  -ms-transition: opacity .7s ease-in-out;
-  -o-transition: opacity .7s ease-in-out;
-  transition: opacity .7s ease-in-out;
+
     top: 0;}
 .icon_box:hover .bghover{opacity: 1}
 
@@ -626,9 +626,9 @@ height: 75px;width: 75px;  margin-bottom:20px;
     background: #ffe200;
 }
 
-.icon_box:hover h4,  .icon_box:hover a{
+/* .icon_box:hover h4,  .icon_box:hover a{
 	color:#ffe200;
-}
+} */
 
 .icon_box a{margin-bottom: 1em}
 .button{
@@ -643,6 +643,22 @@ height: 75px;width: 75px;  margin-bottom:20px;
     position: relative;
     font-family: 'Roboto';
     z-index: 1;
+
+
+
+
+}
+.ButtonBottom{
+
+
+
+position: absolute;
+bottom: 0;
+ right: 70px;
+
+
+
+
 }
 
 
@@ -666,10 +682,10 @@ height: 75px;width: 75px;  margin-bottom:20px;
     background: #fff8dc;
     color: #000;
 }
-.icon_box:hover .button.default, .button.default:focus{
+/* .icon_box:hover .button.default, .button.default:focus{
     background:transparent;
     color: #000;
-}
+} */
 /*-------------------------------*/
         /*Services ends*/
 /*-------------------------------*/
@@ -858,8 +874,13 @@ color:#fff; font: 900 12px/15px "Roboto"; letter-spacing: 1px; text-transform: u
 
 }
 
-.frame{
+/* .frame{
 margin-bottom: 10px;
 border:2px solid #021a40;
+
+} */
+.buttonCenter{
+margin:auto;
+float:right;
 
 }
